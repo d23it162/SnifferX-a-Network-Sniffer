@@ -24,7 +24,7 @@ def check_udp(data_3,src_port,dest_port,udp_size,newObject):
 		dns(data_3,udp_size,newObject)
                 pass
 	else :
-		#print red_color+"data to this udp port haven't been implemented yet!"+end_color
+		#print red_color+" "+end_color
                 pass
 
 

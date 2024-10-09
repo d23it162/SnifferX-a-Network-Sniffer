@@ -128,7 +128,7 @@ def get_dns_data(data_3,index,dns_type):
 		addr = ipv6(struct.unpack("!16s",data_3[index:index+16])[0])
 		rdata = "AAAA address: %s"%addr
 	else:
-		rdata = "rdata: Not implemented yet....!!!"
+		rdata = "rdata: Not Avalible yet....!!!"
 	return rdata
 
 

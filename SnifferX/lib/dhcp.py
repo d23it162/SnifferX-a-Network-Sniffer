@@ -297,7 +297,7 @@ def get_options(data_3):
             options+="  STDA_server:{}".format(addr)
         
         else:
-            options+="This option is not implemented yet!"
+            options+="This option is not Available yet!"
             break
     return options+padding
 

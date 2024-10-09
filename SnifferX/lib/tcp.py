@@ -54,7 +54,7 @@ def tcp_segment(data_2,Object):
                     options+="  Kind:"+"{}{}{}{}{}{}{}".format(option_kind["%d"%kind]," Length:",length," TimeStamp_value:",TS_value," TimeStamp_echo:",TS_echo)
                     index+=9
                 else:
-                    options+="(*)This option is not Implemented yet!"
+                    options+="(*)This option is not Available yet!"
                     break
         Object.setTCP(src_port,dest_port,seq_no,ack_no,offset,offset_reserved&(2**4-1)>>1,nounce,c_flag,e_flag,u_flag,a_flag,p_flag,r_flag,s_flag,f_flag,window,checksum,urg_ptr,options)
         
